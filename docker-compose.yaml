@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  app-csv:
+    container_name: app-csv
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: curso_app-csv:latest
+    hostname: app-csv
